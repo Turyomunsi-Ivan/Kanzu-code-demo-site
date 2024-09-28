@@ -1,0 +1,119 @@
+ * {
+     margin: 0;
+     padding: 0;
+     /* border: 2px solid red; */
+ }
+
+
+ .numax-title {
+     color: orangered;
+     font-size: 50px;
+     text-shadow: 2px 2px rgb(248, 244, 244);
+     letter-spacing: 5px;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ .introduction {
+     margin-bottom: 30px;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ body {
+     font-family: Montserrat, sans-serif;
+
+     background-color: #16325B;
+ }
+
+
+ header {
+     background-color: aliceblue;
+     display: flex;
+
+ }
+
+ [title="logo"] {
+     color: orangered;
+     display: inline;
+     font-size: 40px;
+     margin-left: 20px;
+ }
+
+ p {
+     color: #FFDC7F;
+     word-spacing: 2;
+     margin: 10px;
+
+ }
+
+ del {
+     color: aliceblue;
+ }
+
+ footer {
+     background-color: #060707;
+     padding: 5px;
+ }
+
+ .footer-text {
+
+     text-align: center;
+     color: rgb(247, 243, 242);
+ }
+
+ li,
+ a {
+     color: #FFDC7F;
+     text-decoration: none;
+     line-height: 1.5;
+     list-style-type: none;
+
+ }
+
+ h2 {
+     color: orangered;
+ }
+
+ nav a {
+     color: rgb(11, 5, 12);
+
+ }
+
+ #nav-links ul li {
+     display: inline;
+     padding: 15px;
+
+
+ }
+
+ main {
+     margin: 50px 150px;
+ }
+
+ .movie-genres {
+     padding: 20px;
+     background-color: aliceblue;
+     margin: 30px 0;
+ }
+
+ .movie-genres li,
+ .movie-genres a {
+     color: black;
+ }
+
+ #nav-links {
+     margin: 0 auto;
+     padding: 10px;
+ }
+
+
+ button {
+     background-color: orangered;
+     padding: 10px 20px;
+     border-radius: 10px;
+     color: aliceblue;
+     cursor: pointer;
+     display: block;
+     width: 600px;
+ }
